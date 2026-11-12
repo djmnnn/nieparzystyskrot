@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1794475812 source:c:\users\uczeñ16\desktop\programy\nieparzysty_skrot\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+

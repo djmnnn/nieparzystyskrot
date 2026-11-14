@@ -16,7 +16,7 @@ int nwd(int a, int b)
             mniej=a;}
         else{
             mniej=b;}
-        while(mniej>dziel)
+        while(mniej>=dziel)
         {
             if(a%dziel==0&&b%dziel==0)
             {
@@ -51,7 +51,7 @@ int main()
     for(int i=0;i<200;i++)
     {
         if(nwd(tab[i],nps(tab[i]))==7){
-            cout<<tab[i];}
+            cout<<tab[i]<<endl;}
     }
 
 }
